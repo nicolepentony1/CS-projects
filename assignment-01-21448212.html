@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+
+.top
+{
+   
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 60px solid #e1280f;
+    height: 0;
+    width: 0px;
+ 
+    margin: 0 auto;
+   
+}
+
+.top1
+    {
+        width: 100px;
+        height: 0px;
+       
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 60px solid #e1280f;
+        text-align: center;
+        margin: 0 auto;
+        line-height: normal;
+        font-size: large;
+    }
+    #button
+    {
+        visibility: hidden;
+
+    }
+    #top1Total
+    {
+        visibility: visible;
+    }
+    .top1:hover #button
+    {
+        visibility: visible;
+
+    }
+    .block1
+    {
+        width: 200px;
+        height: 0px;
+       
+        border-left: 47px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 60px solid #e1830f;
+        text-align: center;
+        margin: 0 auto;
+        font-size: large;
+       
+    }
+    #button1
+    {
+        visibility: hidden;
+
+    }
+    #block1Total
+    {
+        visibility: visible;
+    }
+    .block1:hover #button1
+    {
+        visibility: visible;
+
+    }
+
+    .block2
+    {
+        text-align: center;
+        font-size: 25px;
+        width: 320px;
+        height: 0px;
+
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 60px solid #f3ec34;
+        
+        text-align: center;
+        margin: 0 auto;
+    }
+    #button2
+    {
+        visibility: hidden;
+
+    }
+    #block2Total
+    {
+        visibility: visible;
+    }
+    .block2:hover #button2
+    {
+        visibility: visible;
+
+    }
+
+    .block3
+    {
+        text-align: center;
+        font-size: 25px;
+        width: 420px;
+        height: 0px;
+    
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 60px solid #002aff;
+
+        text-align: center;
+
+        margin: 0 auto;
+    }
+    #button3
+    {
+        visibility: hidden;
+
+    }
+    #block3Total
+    {
+        visibility: visible;
+    }
+    .block3:hover #button3
+    {
+        visibility: visible;
+
+    }
+
+    .block4
+    {
+        text-align: center;
+        font-size: 25px;
+        width: 520px;
+        height: 0px;
+
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 60px solid #744935;
+       
+
+        margin: 0 auto;
+    }
+    #button4
+    {
+        visibility: hidden;
+
+    }
+    #block4Total
+    {
+        visibility: visible;
+    }
+    .block4:hover #button4
+    {
+        visibility: visible;
+
+    }
+
+    
+
+
+    .block5
+    {
+        text-align: center;
+        font-size: 27px;
+        width: 620px;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 60px solid #205e22;
+       
+
+        margin: 0 auto;
+    }
+
+.date
+{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin: 0 auto;
+    
+    width: 20%;
+    border: 3px solid rgb(127, 170, 127);
+    padding: 10px;
+    
+}
+
+    
+
+</style>
+
+</head>
+
+<body>
+
+<div class ="top">
+ 
+</div>
+    <div class ="top1">
+        <div id = "button">
+        <button onclick="incrementClick('top1Total')")>+</button>
+        <span id="top1Total" value = '0'>0</span>
+        <button onclick="decrementClick('top1Total')")>-</button>
+    </div>
+         </div>
+
+<div class = "block1">
+    <div id = "button1">
+    <p> 
+        <button onclick="incrementClick('block1Total')")>+</button>
+        <span id="block1Total" value = '0'>0</span>
+        <button onclick="decrementClick('block1Total')")>-</button>
+    </p>
+</div>
+    </div>
+
+<div class = "block2">
+    <div id = "button2">
+    <p>
+        <button onclick="incrementClick('block2Total')")>+</button>
+        <span id="block2Total" value = '0'>0</span>
+        <button onclick="decrementClick('block2Total')")>-</button>
+    </p>
+</div>
+    </div>
+
+
+<div class = "block3">
+     <div id = "button3">
+    <button onclick="incrementClick('block3Total')")>+</button>
+    <span id="block3Total" value = '0'>0</span>
+    <button onclick="decrementClick('block3Total')")>-</button>
+</div>
+    </div>
+
+<div class = "block4">
+    <div id = "button4">
+    
+    <button onclick="incrementClick('block4Total')")>+</button>
+    <span id="block4Total" value = '0'>0</span>
+    <button onclick="decrementClick('block4Total')")>-</button>
+    
+    </div>
+</div>
+
+<div class = "block5">
+    
+    <button onclick="incrementClick('block5Total')")>+</button>
+    <span id="block5Total" value = '0'>0</span>
+    <button onclick="decrementClick('block5Total')")>-</button>
+    
+    </div>
+    
+<div class = "date">
+    <p>
+        Food Pyramid
+    </p>
+    <input type = "date" id="date"> </input>
+</div>
+  
+    <script src = "assignment-01-21448212.js"> </script>
+
+</body>
+
+
+
+</html>
